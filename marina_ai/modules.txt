@@ -1,0 +1,9 @@
+{
+    "Marina AI": {
+        "color": "#7c3aed",
+        "icon": "octicon octicon-rocket",
+        "label": "Marina AI",
+        "link": "marina_ai",
+        "type": "module"
+    }
+}

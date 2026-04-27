@@ -1,0 +1,26 @@
+{
+ "actions": [],
+ "autoname": "hash",
+ "creation": "2024-01-01 00:00:00",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "fields": [
+  {"fieldname": "session", "fieldtype": "Link", "label": "Session", "options": "AI Chat Session", "reqd": 1, "in_list_view": 1},
+  {"fieldname": "role", "fieldtype": "Select", "label": "Role", "options": "user\nassistant\nsystem", "reqd": 1, "in_list_view": 1},
+  {"fieldname": "content", "fieldtype": "Long Text", "label": "Content", "reqd": 1},
+  {"fieldname": "feedback", "fieldtype": "Select", "label": "Feedback", "options": "\ngood\nbad"},
+  {"fieldname": "is_error", "fieldtype": "Check", "label": "Is Error", "default": "0"}
+ ],
+ "modified": "2024-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "Marina AI",
+ "name": "AI Chat Message",
+ "owner": "Administrator",
+ "permissions": [
+  {"create": 1, "delete": 1, "read": 1, "role": "System Manager", "write": 1},
+  {"create": 1, "delete": 1, "read": 1, "role": "All", "write": 1}
+ ],
+ "sort_field": "creation",
+ "sort_order": "ASC",
+ "track_changes": 0
+}
